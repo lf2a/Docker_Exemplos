@@ -3,8 +3,8 @@
 </p>
 
 # Criação e Execução da imagem
-#### GoLang
-> Para executar o teste execute os comandos abaixo
+#### GoLang, Python3
+> Para executar o teste execute os comandos abaixo dentro da pasta de determinada linguagem
 
 1. Criar a imagem ```docker build -t luizfilipy/app .```
 2. Executar imagem ```docker run -p 3001:3000 -d luizfilipy/app```
