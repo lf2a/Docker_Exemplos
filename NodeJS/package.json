@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "teste docker nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lf2a/Docker_Exemplos.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "javascript"
+  ],
+  "author": "lf2a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lf2a/Docker_Exemplos/issues"
+  },
+  "homepage": "https://github.com/lf2a/Docker_Exemplos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
