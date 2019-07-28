@@ -12,6 +12,7 @@
 # Comandos úteis
 * Ver os containers em execução ```docker ps```
 * Parar a execução do container ```docker stop {CONTAINER ID}```
+* Ver todas as imagens ```docker images```
 * Apagar todas as imagens ```docker system prune -a```
 
 [:whale: Veja a lista completa :whale:](https://docs.docker.com/engine/reference/commandline/docker/)
