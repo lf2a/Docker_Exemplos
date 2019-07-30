@@ -3,7 +3,7 @@
 </p>
 
 # Criação e Execução da imagem
-#### GoLang:latest, Python:3, NodeJS:latest, MySQL:8.012 & PHPMyAdmin:latest
+#### GoLang, Python, NodeJS, MySQL & PHPMyAdmin, MongoDB
 > Para executar o teste execute os comandos abaixo dentro da pasta de determinada linguagem
 
 1. Criar a imagem ```docker build -t luizfilipy/app .```
