@@ -3,8 +3,8 @@
 </p>
 
 # Criação e Execução da imagem
-#### GoLang, Python, NodeJS, MySQL & PHPMyAdmin, MongoDB
-> Para executar o teste execute os comandos abaixo dentro da pasta de determinada linguagem
+#### GoLang, Python, NodeJS, MySQL & PHPMyAdmin, MongoDB, PostgreSQL & PGAdmin4
+> Para executar o teste execute os comandos abaixo dentro da pasta. (arquivos `docker-compose.yml` possuem comandos diferentes, leia o `README.md` que está contido junto com esses arquivos.)
 
 1. Criar a imagem ```docker build -t luizfilipy/app .```
 2. Executar imagem ```docker run -p 3001:3000 -d luizfilipy/app```
