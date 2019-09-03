@@ -4,11 +4,11 @@ services:
   postgres:
     image: postgres
     environment:
-      POSTGRES_PASSWORD: "root"
+      POSTGRES_PASSWORD: "yourpassword"
     ports:
       - "15432:5432"
     volumes:
-      - /home/casa-notebook/Desenvolvimento/Docker-Compose/PostgreSQL:/var/lib/postgresql/data 
+      - /home/luiz-notebook/Desenvolvimento/Docker-Compose/PostgreSQL:/var/lib/postgresql/data 
     networks:
       - postgres-compose-network
       
@@ -16,7 +16,7 @@ services:
     image: dpage/pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: "youremail@email.com"
-      PGADMIN_DEFAULT_PASSWORD: "root"
+      PGADMIN_DEFAULT_PASSWORD: "yourpassword"
     ports:
       - "16543:80"
     depends_on:
